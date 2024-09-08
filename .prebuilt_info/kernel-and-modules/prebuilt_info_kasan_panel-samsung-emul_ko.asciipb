@@ -1,0 +1,11 @@
+drops {
+  android_build_drop {
+    build_id: "12076201"
+    target: "slider_gki_kasan"
+    source_file: "panel-samsung-emul.ko"
+  }
+  dest_file: "kasan/panel-samsung-emul.ko"
+  version: "12076201"
+  version_group: "kernel-and-modules"
+  git_project: "device/google/raviole-kernel"
+}
